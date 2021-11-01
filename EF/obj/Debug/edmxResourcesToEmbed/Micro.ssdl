@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MicroSystemModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Empleado">
+    <Key>
+      <PropertyRef Name="IdEmpleado" />
+    </Key>
+    <Property Name="IdEmpleado" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nombre" Type="varchar" MaxLength="50" />
+    <Property Name="ApellidoPaterno" Type="varchar" MaxLength="50" />
+    <Property Name="ApellidoMaterno" Type="varchar" MaxLength="50" />
+    <Property Name="RFC" Type="varchar" MaxLength="50" />
+    <Property Name="Sueldo" Type="money" />
+  </EntityType>
+  <Function Name="GetByIdUusuario" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IdEmpleado" Type="int" Mode="In" />
+  </Function>
+  <Function Name="UsuariDelete" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IdEmpleado" Type="int" Mode="In" />
+  </Function>
+  <Function Name="UsuarioAdd" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="Nombre" Type="varchar" Mode="In" />
+    <Parameter Name="ApellidoPaterno" Type="varchar" Mode="In" />
+    <Parameter Name="ApellidoMaterno" Type="varchar" Mode="In" />
+    <Parameter Name="RFC" Type="varchar" Mode="In" />
+    <Parameter Name="Sueldo" Type="money" Mode="In" />
+  </Function>
+  <Function Name="UsuarioGetAll" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="UsuarioUpdate" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="IdEmpleado" Type="int" Mode="In" />
+    <Parameter Name="Nombre" Type="varchar" Mode="In" />
+    <Parameter Name="ApellidoPaterno" Type="varchar" Mode="In" />
+    <Parameter Name="ApellidoMaterno" Type="varchar" Mode="In" />
+    <Parameter Name="RFC" Type="varchar" Mode="In" />
+    <Parameter Name="Sueldo" Type="money" Mode="In" />
+  </Function>
+  <EntityContainer Name="MicroSystemModelStoreContainer">
+    <EntitySet Name="Empleado" EntityType="Self.Empleado" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

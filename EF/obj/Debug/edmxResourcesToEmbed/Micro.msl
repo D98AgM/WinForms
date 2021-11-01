@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="MicroSystemModelStoreContainer" CdmEntityContainer="MicroSystemEntities">
+    <EntitySetMapping Name="Empleadoes">
+      <EntityTypeMapping TypeName="MicroSystemModel.Empleado">
+        <MappingFragment StoreEntitySet="Empleado">
+          <ScalarProperty Name="IdEmpleado" ColumnName="IdEmpleado" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ApellidoPaterno" ColumnName="ApellidoPaterno" />
+          <ScalarProperty Name="ApellidoMaterno" ColumnName="ApellidoMaterno" />
+          <ScalarProperty Name="RFC" ColumnName="RFC" />
+          <ScalarProperty Name="Sueldo" ColumnName="Sueldo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="UsuariDelete" FunctionName="MicroSystemModel.Store.UsuariDelete" />
+    <FunctionImportMapping FunctionImportName="UsuarioAdd" FunctionName="MicroSystemModel.Store.UsuarioAdd" />
+    <FunctionImportMapping FunctionImportName="UsuarioGetAll" FunctionName="MicroSystemModel.Store.UsuarioGetAll">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MicroSystemModel.UsuarioGetAll_Result">
+          <ScalarProperty Name="IdEmpleado" ColumnName="IdEmpleado" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ApellidoPaterno" ColumnName="ApellidoPaterno" />
+          <ScalarProperty Name="ApellidoMaterno" ColumnName="ApellidoMaterno" />
+          <ScalarProperty Name="RFC" ColumnName="RFC" />
+          <ScalarProperty Name="Sueldo" ColumnName="Sueldo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="UsuarioUpdate" FunctionName="MicroSystemModel.Store.UsuarioUpdate" />
+    <FunctionImportMapping FunctionImportName="GetByIdUusuario" FunctionName="MicroSystemModel.Store.GetByIdUusuario">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="MicroSystemModel.GetByIdUusuario_Result">
+          <ScalarProperty Name="IdEmpleado" ColumnName="IdEmpleado" />
+          <ScalarProperty Name="Nombre" ColumnName="Nombre" />
+          <ScalarProperty Name="ApellidoPaterno" ColumnName="ApellidoPaterno" />
+          <ScalarProperty Name="ApellidoMaterno" ColumnName="ApellidoMaterno" />
+          <ScalarProperty Name="RFC" ColumnName="RFC" />
+          <ScalarProperty Name="Sueldo" ColumnName="Sueldo" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

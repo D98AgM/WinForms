@@ -1,0 +1,10 @@
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\EF\bin\Debug\EF.dll.config
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\EF\bin\Debug\EF.dll
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\EF\bin\Debug\EF.pdb
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\EF\bin\Debug\EntityFramework.dll
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\EF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\EF\bin\Debug\EntityFramework.xml
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\EF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\EF\obj\Debug\EF.csprojResolveAssemblyReference.cache
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\EF\obj\Debug\EF.dll
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\EF\obj\Debug\EF.pdb

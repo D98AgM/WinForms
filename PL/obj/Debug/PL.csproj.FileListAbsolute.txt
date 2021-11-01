@@ -1,0 +1,23 @@
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\bin\Debug\PL.exe.config
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\bin\Debug\PL.exe
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\bin\Debug\PL.pdb
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\bin\Debug\BL_2.dll
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\bin\Debug\ML_2.dll
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\bin\Debug\EF.dll
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\bin\Debug\EntityFramework.dll
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\bin\Debug\BL_2.pdb
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\bin\Debug\ML_2.pdb
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\bin\Debug\EF.pdb
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\bin\Debug\EntityFramework.xml
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\obj\Debug\PL.csprojResolveAssemblyReference.cache
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\obj\Debug\PL.Form1.resources
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\obj\Debug\PL.Properties.Resources.resources
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\obj\Debug\PL.Views.Formulario.resources
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\obj\Debug\PL.csproj.GenerateResource.Cache
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\obj\Debug\PL.exe
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\obj\Debug\PL.pdb
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\PL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\digis\Downloads\MicroSa\PL\bin\Debug\PL.exe.config
+C:\Users\digis\Downloads\MicroSa\PL\obj\Debug\PL.exe
+C:\Users\digis\Downloads\MicroSa\PL\obj\Debug\PL.pdb

@@ -1,0 +1,14 @@
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\BL_2\bin\Debug\BL_2.dll.config
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\BL_2\bin\Debug\BL_2.dll
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\BL_2\bin\Debug\BL_2.pdb
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\BL_2\bin\Debug\EF.dll
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\BL_2\bin\Debug\EntityFramework.dll
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\BL_2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\BL_2\bin\Debug\ML_2.dll
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\BL_2\bin\Debug\EF.pdb
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\BL_2\bin\Debug\ML_2.pdb
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\BL_2\bin\Debug\EntityFramework.xml
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\BL_2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\BL_2\obj\Debug\BL_2.csprojResolveAssemblyReference.cache
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\BL_2\obj\Debug\BL_2.dll
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\BL_2\obj\Debug\BL_2.pdb

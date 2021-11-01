@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MicroSystemModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Empleado">
+    <Key>
+      <PropertyRef Name="IdEmpleado" />
+    </Key>
+    <Property Name="IdEmpleado" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ApellidoPaterno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ApellidoMaterno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RFC" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sueldo" Type="Decimal" Precision="19" Scale="4" />
+  </EntityType>
+  <EntityContainer Name="MicroSystemEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Empleadoes" EntityType="Self.Empleado" />
+    <FunctionImport Name="UsuariDelete">
+      <Parameter Name="IdEmpleado" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="UsuarioAdd">
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="ApellidoPaterno" Mode="In" Type="String" />
+      <Parameter Name="ApellidoMaterno" Mode="In" Type="String" />
+      <Parameter Name="RFC" Mode="In" Type="String" />
+      <Parameter Name="Sueldo" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="UsuarioGetAll" ReturnType="Collection(MicroSystemModel.UsuarioGetAll_Result)" />
+    <FunctionImport Name="UsuarioUpdate">
+      <Parameter Name="IdEmpleado" Mode="In" Type="Int32" />
+      <Parameter Name="Nombre" Mode="In" Type="String" />
+      <Parameter Name="ApellidoPaterno" Mode="In" Type="String" />
+      <Parameter Name="ApellidoMaterno" Mode="In" Type="String" />
+      <Parameter Name="RFC" Mode="In" Type="String" />
+      <Parameter Name="Sueldo" Mode="In" Type="Decimal" />
+    </FunctionImport>
+    <FunctionImport Name="GetByIdUusuario" ReturnType="Collection(MicroSystemModel.GetByIdUusuario_Result)">
+      <Parameter Name="IdEmpleado" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="UsuarioGetAll_Result">
+    <Property Type="Int32" Name="IdEmpleado" Nullable="false" />
+    <Property Type="String" Name="Nombre" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ApellidoPaterno" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ApellidoMaterno" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="RFC" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="Sueldo" Nullable="true" Precision="19" />
+  </ComplexType>
+  <ComplexType Name="GetByIdUusuario_Result">
+    <Property Type="Int32" Name="IdEmpleado" Nullable="false" />
+    <Property Type="String" Name="Nombre" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ApellidoPaterno" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="ApellidoMaterno" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="RFC" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="Sueldo" Nullable="true" Precision="19" />
+  </ComplexType>
+</Schema>

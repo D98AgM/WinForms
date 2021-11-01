@@ -1,0 +1,4 @@
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\ML_2\bin\Debug\ML_2.dll
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\ML_2\bin\Debug\ML_2.pdb
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\ML_2\obj\Debug\ML_2.dll
+C:\Users\avata\documents\visual studio 2013\Projects\MicroSa\ML_2\obj\Debug\ML_2.pdb
